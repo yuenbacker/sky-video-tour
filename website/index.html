@@ -15,8 +15,9 @@
             </div>
             <nav class="sidebar-nav">
                 <ul>
-                    <li><a href="#" class="nav-link active" data-page="instructions">Instructions</a></li>
-                    <li><a href="#" class="nav-link" data-page="catalog">Celestial Catalog</a></li>
+                    <li><a href="#" class="nav-link active" data-page="instructions">Инструкция</a></li>
+                    <li><a href="#" class="nav-link" data-page="catalog">Каталог</a></li>
+                    <li><a href="#" class="nav-link" data-page="skyguide">Гид по небу</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,14 +25,11 @@
             <div id="instructions-page" class="page active">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Observation Instructions</h2>
+                        <h2>Инструкция</h2>
                     </div>
                     <div class="card-body">
                         <div class="video-container ratio ratio-16x9">
-                            <div class="placeholder-video">
-                                <div class="play-icon"></div>
-                                <p>Instructional video will be displayed here</p>
-                            </div>
+                            <iframe src="https://rutube.ru/play/embed/e4ce28bd80b5b217e7bc0eaae1cb43c7" frameborder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -39,11 +37,23 @@
             <div id="catalog-page" class="page">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Celestial Catalog</h2>
-                        <p class="mb-0">Visible in Dolgoprudny: June 25 - July 12</p>
+                        <h2>Каталог</h2>
+                        <p class="mb-0">Видны в Долгопрудном летом</p>
                     </div>
                     <div class="card-body">
                         <div id="catalog-container" class="accordion"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="skyguide-page" class="page">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Гид по небу</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="video-container ratio ratio-16x9">
+                            <iframe src="https://rutube.ru/play/embed/4c09fd98168a0ad0c61bbec8b7497ea8" frameborder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

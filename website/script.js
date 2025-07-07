@@ -5,11 +5,13 @@ const celestialData = {
             objects: [
                 { 
                     name: "Двойная звезда (Мицар и Алькор)", 
-                    description: "Знаменитая визуально-двойная звезда в ручке ковша. Мицар - система из 4 звёзд, Алькор - 3 звёзды. Отличный тест на зрение."
+                    description: "Знаменитая визуально-двойная звезда в ручке ковша. Мицар - система из 4 звёзд, Алькор - 3 звёзды. Отличный тест на зрение.",
+                    image: "Stacked_37_Mizar_10.0s_IRCUT_20250705-231001.jpg"
                 },
                 { 
                     name: "Галактика Боде М81", 
-                    description: "Классическая спиральная галактика в 12 млн световых лет от нас. Имеет идеальные симметричные рукава и яркое ядро."
+                    description: "Классическая спиральная галактика в 12 млн световых лет от нас. Имеет идеальные симметричные рукава и яркое ядро.",
+                    image: "Stacked_18_M 81_10.0s_IRCUT_20250606-004509.jpg"
                 },
                 { 
                     name: "Галактика Сигара М82", 
@@ -17,7 +19,8 @@ const celestialData = {
                 },
                 { 
                     name: "Галактика Вертушка М101", 
-                    description: "Грандиозная спиральная галактика, видимая плашмя. Диаметр около 170,000 световых лет - почти вдвое больше Млечного Пути."
+                    description: "Грандиозная спиральная галактика, видимая плашмя. Диаметр около 170,000 световых лет - почти вдвое больше Млечного Пути.",
+                    image: "Stacked_14_M 101_10.0s_IRCUT_20250606-003608.jpg"
                 },
                 { 
                     name: "Активная галактика Глаз тигра NGC2841", 
@@ -50,7 +53,8 @@ const celestialData = {
                 },
                 { 
                     name: "Туманность Ирис С4", 
-                    description: "Отражательная туманность, подсвеченная звездой SAO 19158. Голубой цвет обусловлен рассеянием света на пылевых частицах."
+                    description: "Отражательная туманность, подсвеченная звездой SAO 19158. Голубой цвет обусловлен рассеянием света на пылевых частицах.",
+                    image: "Stacked_116_C 4_10.0s_IRCUT_20250706-002133.jpg"
                 },
                 { 
                     name: "Скопление Плывущий аллигатор NGC7160", 
@@ -92,6 +96,16 @@ const celestialData = {
                 { 
                     name: "Скопление Роза Каролины NGC7789", 
                     description: "Красивое рассеянное скопление, открытое Каролиной Гершель. Напоминает розу с лепестками из звёздных цепочек."
+                },
+                { 
+                    name: "М13", 
+                    description: "Великолепное шаровое скопление в Геркулесе, содержащее сотни тысяч звезд.",
+                    image: "Stacked_216_M 13_10.0s_IRCUT_20250617-003801.jpg"
+                },
+                { 
+                    name: "М92", 
+                    description: "Яркое шаровое скопление в Геркулесе, одно из самых старых в нашей галактике.",
+                    image: "Stacked_63_M 92_10.0s_IRCUT_20250703-235353.jpg"
                 }
             ]
         },
@@ -163,7 +177,8 @@ const celestialData = {
                 },
                 { 
                     name: "М39", 
-                    description: "Яркое рассеянное скопление около Денеба. Содержит около 30 звёзд, расположенных на площади больше лунного диска."
+                    description: "Яркое рассеянное скопление около Денеба. Содержит около 30 звёзд, расположенных на площади больше лунного диска.",
+                    image: "Stacked_53_M 39_10.0s_IRCUT_20250704-012959.jpg"
                 },
                 { 
                     name: "Туманность Северная Америка C20", 
@@ -188,11 +203,13 @@ const celestialData = {
             objects: [
                 { 
                     name: "М56", 
-                    description: "Шаровое скопление на расстоянии 32,900 световых лет. Содержит десятки тысяч старых звёзд."
+                    description: "Шаровое скопление на расстоянии 32,900 световых лет. Содержит десятки тысяч старых звёзд.",
+                    image: "Stacked_42_M 56_10.0s_IRCUT_20250704-005002.jpg"
                 },
                 { 
                     name: "Туманность Кольцо М57", 
-                    description: "Классическая планетарная туманность - сброшенные оболочки умирающей звезды. Один из самых популярных объектов для наблюдений."
+                    description: "Классическая планетарная туманность - сброшенные оболочки умирающей звезды. Один из самых популярных объектов для наблюдений.",
+                    image: "Stacked_11_M 57_10.0s_LP_20250703-235956.jpg"
                 },
                 { 
                     name: "NGC6791", 
@@ -217,7 +234,8 @@ const celestialData = {
                 },
                 { 
                     name: "Скопление Дикая утка М11", 
-                    description: "Одно из самых богатых и компактных рассеянных скоплений. Содержит около 3,000 звёзд."
+                    description: "Одно из самых богатых и компактных рассеянных скоплений. Содержит около 3,000 звёзд.",
+                    image: "Stacked_47_M 11_10.0s_IRCUT_20250704-022539.jpg"
                 },
                 { 
                     name: "NGC6649", 
@@ -230,7 +248,8 @@ const celestialData = {
             objects: [
                 { 
                     name: "Туманность Гантель", 
-                    description: "Планетарная туманность М27 - одна из самых ярких. Форма напоминает гантель или ядро, вылетающее из яблока."
+                    description: "Планетарная туманность М27 - одна из самых ярких. Форма напоминает гантель или ядро, вылетающее из яблока.",
+                    image: "Stacked_97_M 27_10.0s_LP_20250703-231953.jpg"
                 },
                 { 
                     name: "Звёздное скопление Облачная скульптура", 
@@ -275,7 +294,8 @@ const celestialData = {
                 },
                 { 
                     name: "Звёздное облако Стрельца М24", 
-                    description: "Не скопление, а плотный участок Млечного Пути. Содержит тысячи звёзд, видимых невооружённым глазом."
+                    description: "Не скопление, а плотный участок Млечного Пути. Содержит тысячи звёзд, видимых невооружённым глазом.",
+                    image: "Stacked_4_M 24_10.0s_IRCUT_20250617-005804.jpg"
                 },
                 { 
                     name: "Галактика Барнарда С57", 
@@ -296,7 +316,8 @@ const celestialData = {
                 },
                 { 
                     name: "М10", 
-                    description: "Яркое шаровое скопление, одно из самых близких к нам. Имеет слегка сплюснутую форму."
+                    description: "Яркое шаровое скопление, одно из самых близких к нам. Имеет слегка сплюснутую форму.",
+                    image: "Stacked_69_M 10_10.0s_IRCUT_20250620-015048.jpg"
                 },
                 { 
                     name: "Скопление Распятие М107", 
@@ -331,11 +352,13 @@ const celestialData = {
         }
     ]
 };
+
 document.addEventListener('DOMContentLoaded', function() {
     setupNavigation();
     renderCatalog();
     showPage('instructions');
 });
+
 function setupNavigation() {
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', function(e) {
@@ -349,6 +372,7 @@ function setupNavigation() {
         });
     });
 }
+
 function showPage(pageId) {
     document.querySelectorAll('.page').forEach(page => {
         page.classList.remove('active');
@@ -358,6 +382,7 @@ function showPage(pageId) {
         activePage.classList.add('active');
     }
 }
+
 function renderCatalog() {
     const container = document.getElementById('catalog-container');
     if (!container) return;
@@ -382,6 +407,7 @@ function renderCatalog() {
         addObjectsToConstellation(constellation, index);
     });
 }
+
 function addObjectsToConstellation(constellation, index) {
     const objectsContainer = document.getElementById(`constellation-${index}-objects`);
     if (!objectsContainer) return;
@@ -397,24 +423,67 @@ function addObjectsToConstellation(constellation, index) {
         objectsContainer.appendChild(objectElement);
     });
 }
+
 function showObjectModal(object) {
     const modalElement = document.getElementById('objectModal');
     if (!modalElement) return;
+    
     document.getElementById('objectModalTitle').textContent = object.name;
     document.querySelector('.object-description').textContent = object.description;
+    
     const videoContainer = document.querySelector('.object-video');
     if (videoContainer) {
-        if (object.video) {
-            videoContainer.innerHTML = `<iframe src="${object.video}" frameborder="0" allowfullscreen></iframe>`;
+        videoContainer.innerHTML = '';
+        
+        if (object.image) {
+            const imgWrapper = document.createElement('div');
+            imgWrapper.style.display = 'flex';
+            imgWrapper.style.justifyContent = 'center';
+            imgWrapper.style.alignItems = 'center';
+            imgWrapper.style.width = '100%';
+            imgWrapper.style.height = '100%';
+            imgWrapper.style.overflow = 'hidden';
+            
+            const img = new Image();
+            img.src = object.image;
+            img.alt = object.name;
+            img.style.maxWidth = '100%';
+            img.style.maxHeight = '60vh';
+            img.style.objectFit = 'contain';
+            
+            img.onload = function() {
+                if (img.naturalWidth > img.naturalHeight) {
+                    img.style.width = '100%';
+                    img.style.height = 'auto';
+                } else {
+                    img.style.width = 'auto';
+                    img.style.height = '80%';
+                }
+            };
+            
+            img.onerror = function() {
+                videoContainer.innerHTML = `
+                    <div class="placeholder-video">
+                        <div class="play-icon"></div>
+                        <p>Не удалось загрузить изображение</p>
+                    </div>
+                `;
+            };
+            
+            imgWrapper.appendChild(img);
+            videoContainer.appendChild(imgWrapper);
+        } else if (object.video) {
+            videoContainer.innerHTML = `<iframe src="${object.video}" frameborder="0" allowfullscreen style="width:100%;height:100%;"></iframe>`;
         } else {
             videoContainer.innerHTML = `
                 <div class="placeholder-video">
                     <div class="play-icon"></div>
-                    <p>Video content will be displayed here</p>
+                    <p>Здесь будет фото объекта</p>
                 </div>
             `;
         }
     }
+    
     const modal = new bootstrap.Modal(modalElement);
     modal.show();
 }
